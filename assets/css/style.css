@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-image: url("../images/bg-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Propiedades Agregadas */
+  font-family: Open sans;
+  text-align: right;
+  color: white;
+  /* propiedad que le da sombra al texto */
+  text-shadow: 0px 3px 6px black;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: lighter; /* 100 al 900 - lighter - normal - bold - bolder */
+}
+
+/* PRÓXIMA CHARLA */
+#Proxima-Charla {
+  background: #a4452c;
+  padding: 100px;
+  color: white;
+}
+
+#Proxima-Charla .wrapper {
+  width: 800px;
+  margin: auto; /* el valor auto me pondrá margenes automaticamente */
+}
+
+.wrapper img {
+  width: 25%; /* El 25% de .wrapper  */
+}
+
+.wrapper .texto {
+  width: 70%;
+  margin-left: 4%;
+  display: inline-block;
+}
+
+.wrapper img,
+.texto {
+  vertical-align: middle;
+}
+/* EVENTOS ANTERIORES */
+#Eventos-Anteriores {
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #000f08;
+  color: white;
+  padding: 20px;
+}
+
+i {
+  margin: 0 15px;
+  font-size: 50px;
+}
+
